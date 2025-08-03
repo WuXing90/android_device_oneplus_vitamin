@@ -249,10 +249,12 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     ApertureResTarget \
-    LineageSDKResTarget \
     LineageSettingsProviderResTarget \
     OplusDozeResTarget \
     PowerOffAlarmResTarget
+
+PRODUCT_PACKAGES += \
+    POSFrameworksResTarget
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
